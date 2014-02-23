@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>TTS | Black3v3r</title>
+</head>
+<body>
+	<form>
+		<input type="text" id="text">
+		<input type="button" onclick="sendRequest($('#text').val())">
+	</form>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script type="text/javascript">
+	function sendRequest(text) {
+		var audio = new Audio();
+		audio.src ='http://translate.google.com/translate_tts?ie=utf-8&tl=fr&q=' + text;
+		audio.play();
+	}
+	</script>
+</body>
+</html>
