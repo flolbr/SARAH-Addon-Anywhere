@@ -290,7 +290,7 @@
 					//$('#url').append("URL: <a href=\"" + dataJSON.url + "\">" + dataJSON.url + "</a>");
 					// $('#answer').append("Answer: " + data);
 					$('#answer').append(data);
-					if ($('#voc').is(':checked')) {
+					if ($('#voc').attr('checked')) {
 						// alert('yes');
 						console.log('LOL: ' + data);
 						vocalise(data);
@@ -308,8 +308,8 @@
 			console.log("Bonjour");
 			var msg = new SpeechSynthesisUtterance();
 			var voices = window.speechSynthesis.getVoices();
-			msg.voice = voices[10]; // Note: some voices don't support altering params
-			msg.voiceURI = 'native';
+			msg.voice = voices[4]; // Note: some voices don't support altering params
+			// msg.voiceURI = 'native';
 			msg.volume = 1; // 0 to 1
 			msg.rate = 1; // 0.1 to 10
 			msg.pitch = 2; //0 to 2
@@ -319,6 +319,9 @@
 			
 			msg.onend = function(e) {
 			  console.log('Finished in ' + event.elapsedTime + ' seconds.');
+			};
+			msg.onerror = function(e) {
+				console.error("Ah que problème !");
 			};
 			speechSynthesis.speak(msg);
 		}
