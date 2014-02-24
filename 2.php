@@ -82,7 +82,7 @@
 				<input type="submit" name="btn_send" id="btn_send" class="btn btn-primary" value="Envoyer">
 				<input type="button" name="btn_cont" id="btn_cont" class="btn btn-danger" value="Dictée continue: Off" onclick="startButton(event)">
 			</div>
-			<label for="voc">Vocalisation du résultat:</label><input type="checkbox" id="voc"/>
+			<label for="voc">Vocalisation du résultat:</label><input type="checkbox" id="voc" checked />
 			<input type="button" value="Vocaliser" onclick="vocalise($('#answer').text())">
 			<hr>
 			<p id="url"></p>
