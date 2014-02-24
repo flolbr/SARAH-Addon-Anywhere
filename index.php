@@ -16,7 +16,7 @@
         <form class="form-signin" role="form" id="searchform">
             <h2 class="form-signin-heading">Envoyez vos demandes à <?= $name ?></h2>
             <!-- <input type="text" name="query" id="query" class="form-control" placeholder="Que voulez vous que <?= $name ?> exécute ?" required autofocus speech onspeechchange="request();"> -->
-            <input type="text" name="query" id="query" class="form-control" placeholder="Que voulez vous que <?= $name ?> exécute ?" required autofocus x-webkit-speech onwebkitspeechchange="request();">
+            <input type="text" x-webkit-speech name="query" id="query" class="form-control" placeholder="Que voulez vous que <?= $name ?> exécute ?" required autofocus spech onwebkitspeechchange="request();">
             <div class="btn-group btn-group-lg">
             	<input type="submit" name="btn_send" id="btn_send" class="btn btn-primary" value="Envoyer">
             	<input type="button" name="btn_cont" id="btn_cont" class="btn btn-danger" value="Dictée continue: Off" onclick="continous();">
