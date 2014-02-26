@@ -32,7 +32,8 @@ Go visit the page and you'll have 3 possibilities to talk to SARAH:
  * Check the **"Vocalisation du résultat"** box and let the magic happens !
 
 ### Configuration: ###
-You can set the recognized language.
+Server side:
+ * You can set the recognized language.
 
 **Things to be done:**
 ---------
@@ -43,11 +44,6 @@ No order:
  - Changing the TTS voice according to your language.
  - Rework the CSS.
  - Cleaning the code.
-  
-  
-  
-   
-   
 
 
 [S.A.R.A.H](http://encausse.wordpress.com/s-a-r-a-h/) is a NodeJS framework by [JP Encausse](https://github.com/JpEncausse), an Home Automation project built 
