@@ -1,7 +1,7 @@
-**S.A.R.A.H from anywhere**	{#welcome}
+**S.A.R.A.H from anywhere**
 =====================
 
-This is an add-on for **S.A.R.A.H**[^sarah], that allows users to access it from anywhere, without need of anything else than [Google Chrome](https://www.google.com/intl/chrome/browser/) and a PHP server *on the host*.
+This is an add-on for **S.A.R.A.H** [^sarah], that allows users to access it from anywhere, without need of anything else than [Google Chrome](https://www.google.com/intl/chrome/browser/) and a PHP server *on the host*.
 
 ----------
 
