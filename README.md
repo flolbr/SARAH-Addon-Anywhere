@@ -43,8 +43,14 @@ No order:
  - Changing the TTS voice according to your language.
  - Rework the CSS.
  - Cleaning the code.
+  
+  
+  
+   
+   
 
-  [^sarah]: [S.A.R.A.H](http://encausse.wordpress.com/s-a-r-a-h/) is a NodeJS framework by [JP Encausse](https://github.com/JpEncausse), an Home Automation project built 
+
+[S.A.R.A.H](http://encausse.wordpress.com/s-a-r-a-h/) is a NodeJS framework by [JP Encausse](https://github.com/JpEncausse), an Home Automation project built 
 on top of:
 * C# (Kinect) client for Voice, Gesture, Face, QRCode recognition. 
 * NodeJS (ExpressJS) server for Internet of Things communication.
