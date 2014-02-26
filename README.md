@@ -35,7 +35,8 @@ Go visit the page and you'll have 3 possibilities to talk to SARAH:
 Server side:
  * Name of the assistant.
  * IP adress of the NodeJS server (to access the *"http://server:8888/?emulate=[...]"* option).
-Client side:
+
+Client side: 
  * You can set the recognized language.
 
 **Things to be done:**
