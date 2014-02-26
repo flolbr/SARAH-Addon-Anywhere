@@ -1,4 +1,4 @@
-  * {
+* {
     font-family: Verdana, Arial, sans-serif;
   }
   a:link {
@@ -11,7 +11,7 @@
   a:hover {
     color:#33F;
   }
-  .button {
+.button {
     background: -webkit-linear-gradient(top,#008dfd 0,#0370ea 100%);
     border: 1px solid #076bd2;
     border-radius: 3px;
@@ -42,17 +42,17 @@
     color: #777;
     display: none;
   }
-  .right {
+.right {
     float: right;
   }
-  .sidebyside {
+.sidebyside {
     display: inline-block;
     width: 45%;
     min-height: 40px;
     text-align: left;
     vertical-align: top;
   }
-  #headline {
+#headline {
     font-size: 40px;
     font-weight: 300;
   }
@@ -62,7 +62,7 @@
     color: #777;
     visibility: hidden;
   }
-  #results {
+#results {
     font-size: 14px;
     font-weight: bold;
     border: 1px solid #ddd;
