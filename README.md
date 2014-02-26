@@ -1,7 +1,7 @@
 **S.A.R.A.H from anywhere**
 =====================
 
-This is an add-on for **S.A.R.A.H** [^sarah], that allows users to access it from anywhere, without need of anything else than [Google Chrome](https://www.google.com/intl/chrome/browser/) and a PHP server *on the host*.
+This is an add-on for **[S.A.R.A.H](http://encausse.wordpress.com/s-a-r-a-h/)** , that allows users to access it from anywhere, without need of anything else than [Google Chrome](https://www.google.com/intl/chrome/browser/) (33 or superior) and a PHP server *on the host*.
 
 ----------
 
@@ -13,7 +13,7 @@ All you have to do is to copy the files in a folder on your PHP server, and **th
 > **NOTE:**
 I strongly recommend to protect this folder with a *.htaccess* file, in order to prevent undesired people to access your home automation.
 
-You can replace the text *S.A.R.A.H* with whatever you want by changing the value of the *$name* variable.
+You can replace the text *S.A.R.A.H* with whatever you want by changing the value of the *$name* variable in *index.php*.
 
     $name = "NameOfServer";
 
