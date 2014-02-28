@@ -1,6 +1,3 @@
-SARAH-Addon-Anywhere
-====================
-
 **S.A.R.A.H from anywhere**
 =====================
 
