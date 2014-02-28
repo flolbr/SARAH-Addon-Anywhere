@@ -1,4 +1,4 @@
-**S.A.R.A.H from anywhere**
+S.A.R.A.H from anywhere
 =====================
 
 This is an add-on for **[S.A.R.A.H](http://encausse.wordpress.com/s-a-r-a-h/)** , that allows users to access it from anywhere, without need of anything else than [Google Chrome](https://www.google.com/intl/chrome/browser/) (33 or superior) and a PHP server *on the host*.
