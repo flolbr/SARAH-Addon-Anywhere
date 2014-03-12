@@ -11,7 +11,7 @@ This is an add-on for **[S.A.R.A.H](http://encausse.wordpress.com/s-a-r-a-h/)** 
 
 All you have to do is to copy the files in a folder on your PHP server, and **that's all !**
 > **NOTE:**
-I strongly recommend to protect this folder with a *.htaccess* file, in order to prevent undesired people to access your home automation.
+I strongly recommend you to protect this folder with a *.htaccess* file, in order to prevent undesired people to access your home automation.
 
 You can replace the text *S.A.R.A.H* with whatever you want by changing the value of the *$name* variable in *index.php*.
 
